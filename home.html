@@ -1,130 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>e-Geek</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>e-Geek</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 
-<header>
+  <header>
     <h1>e-Geek</h1>
-</header>
-<hr>
+  </header>
+  <hr>
 
-<div>
+  <div>
     <input type="search">
-</div>
-<div class="navbar">
-        <a class="test">Logo</a>
-        <a href="#" class="active right">Camisetas</a>
-        <a href="#" class="right">Canecas</a>
-        <a href="#" class="right">Jogos</a>
-        <a href="#" class="right">Consoles</a>
-        <a href="#" class="right">Pelúcias</a>
-</div>
+  </div>
 
+  <table>
+    <tr>
+      <td>
+        <img class="fake-img"></td>
+      <td>
+        <div class="navbar">
+          <a class="test">Logo</a>
+          <a href="#" class="active">Camisetas</a>
+          <a href="#">Canecas</a>
+          <a href="#">Jogos</a>
+          <a href="#">Consoles</a>
+          <a href="#">Pelúcias</a>
+        </div>
+      </td>
+    </tr>
+  </table>
 
-<div class="row">
+  <div class="row">
     <div class="side">
-        <div class="item-footer fake-img"><p>Quem Somos</p></div>
-        <div class="item-footer fake-img"> <p>Fale Conosco</div>
-        <div class="item-footer fake-img"><p>Formas de Pagamento</p></div>
+      <div class="item-footer fake-img">
+        <p>Quem Somos</p>
+      </div>
+      <div class="item-footer fake-img">
+        <p>Fale Conosco
+      </div>
+      <div class="item-footer fake-img">
+        <p>Formas de Pagamento</p>
+      </div>
     </div>
-<!--    <div class="main">-->
-<!--        <h2>TITLE HEADING</h2>-->
-<!--        <h5>Title description, Dec 7, 2017</h5>-->
-<!--        <div class="fake-img" style="height:200px;">Image</div>-->
-<!--        <p>Some text..</p>-->
-<!--        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>-->
-<!--        <br>-->
-<!--        <h2>TITLE HEADING</h2>-->
-<!--        <h5>Title description, Sep 2, 2017</h5>-->
-<!--        <div class="fake-img" style="height:200px;">Image</div>-->
-<!--        <p>Some text..</p>-->
-<!--        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>-->
-<!--    </div>-->
-</div>
+    <!--    <div class="main">-->
+    <!--        <h2>TITLE HEADING</h2>-->
+    <!--        <h5>Title description, Dec 7, 2017</h5>-->
+    <!--        <div class="fake-img" style="height:200px;">Image</div>-->
+    <!--        <p>Some text..</p>-->
+    <!--        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>-->
+    <!--        <br>-->
+    <!--        <h2>TITLE HEADING</h2>-->
+    <!--        <h5>Title description, Sep 2, 2017</h5>-->
+    <!--        <div class="fake-img" style="height:200px;">Image</div>-->
+    <!--        <p>Some text..</p>-->
+    <!--        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>-->
+    <!--    </div>-->
+  </div>
 
-<footer>
-    <div class="item-footer"><p>Quem Somos</p></div>
-    <div class="item-footer"> <p>Fale Conosco</div>
-    <div class="item-footer"><p>Formas de Pagamento</p></div>
-    <div class="item-footer"><p>Contato</p></div>
-</footer>
+  <footer>
+    <div class="item-footer">
+      <p>Quem Somos</p>
+    </div>
+    <div class="item-footer">
+      <p>Fale Conosco
+    </div>
+    <div class="item-footer">
+      <p>Formas de Pagamento</p>
+    </div>
+    <div class="item-footer">
+      <p>Contato</p>
+    </div>
+  </footer>
 </body>
+
 </html>
 
 <style>
-body {
+  body {
     margin: 0;
-}
+  }
 
-header h1 {
+  header h1 {
     text-align: center;
     color: Black;
-}
+  }
 
-.navbar {
+  .navbar {
     overflow: hidden;
     background-color: darkgrey;
     width: 570px;
     /*margin-left: 190px;*/
-}
-.navbar test {
+  }
+
+  .navbar test {
     background-color: darkgrey;
 
-}
-.navbar a {
+  }
+
+  .navbar a {
     float: left;
     color: white;
     padding: 14px 20px;
     text-decoration: none;
-}
+  }
 
-.navbar a.active {
+  .navbar a.active {
     background-color: #d0d0d0;
     color: white;
-}
-.right {
-  float: right;
-}
+  }
 
-.row {
-    display: -ms-flexbox; /* IE10 */
+  .row {
+    display: -ms-flexbox;
+    /* IE10 */
     display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
+    -ms-flex-wrap: wrap;
+    /* IE10 */
     flex-wrap: wrap;
-}
+  }
 
-.side {
+  .side {
     flex: 30%;
     padding: 20px;
-}
+  }
 
-/*.main {*/
-/*    -ms-flex: 70%; !* IE10 *!*/
-/*    flex: 70%;*/
-/*    background-color: white;*/
-/*    padding: 20px;*/
-/*}*/
+  /*.main {*/
+  /*    -ms-flex: 70%; !* IE10 *!*/
+  /*    flex: 70%;*/
+  /*    background-color: white;*/
+  /*    padding: 20px;*/
+  /*}*/
 
-.fake-img {
+  .fake-img {
     background-color: darkgrey;
     width: 15%;
-    height:75px;
+    height: 75px;
     padding: 20px;
-}
+  }
 
-footer {
+  footer {
     background-color: darkgrey;
     height: 60px;
     margin-top: 235px;
-}
-.item-footer {
+  }
+
+  .item-footer {
     font-size: 18px;
     color: white;
     float: left;
     margin: 0 25px;
-}
+  }
 </style>
